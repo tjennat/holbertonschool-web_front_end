@@ -1,0 +1,11 @@
+/* Using nest declaration for body p */
+$zero: 0px;
+$ten: 10px;
+
+body {
+    margin : $zero;
+    padding: $zero;
+    body p {
+        margin: $ten;
+    }
+}
