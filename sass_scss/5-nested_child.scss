@@ -4,7 +4,8 @@ $rebody: #FF0000;
 
 body {
     color: $bodyp-color;
+
     .red:first-child {
-        color: #FF0000;
+        color: $rebody;
     }
 }
