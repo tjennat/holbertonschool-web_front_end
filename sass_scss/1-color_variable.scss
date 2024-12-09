@@ -1,0 +1,9 @@
+/* Creating a var that we can apply to body and p */
+$bodyp-color: #3D3D3D;
+
+body {
+    color: $bodyp-color;
+}
+p {
+    color: $bodyp-color;
+}

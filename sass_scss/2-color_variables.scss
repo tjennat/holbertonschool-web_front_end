@@ -1,0 +1,16 @@
+/* Creating more var that we can apply to body,p and h2 */
+$bodyp-color: #3D3D3D;
+$back: #6D6D6D;
+
+body {
+    color: $bodyp-color;
+    background-color: $back;
+}
+
+h2 {
+    background-color: $bodyp-color;
+}
+
+p {
+    color: $bodyp-color;
+}
