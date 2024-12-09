@@ -1,0 +1,10 @@
+/* sass file nested with a class that is the first children now */
+$bodyp-color: #3D3D3D;
+$rebody: #FF0000;
+
+body {
+    color: $bodyp-color;
+    .red:first-child {
+        color: $rebody;
+    }
+}
