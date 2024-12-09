@@ -1,0 +1,10 @@
+/* Sass file with body h1 assigning font size */
+body {
+    font-size: 14px;
+    h1 {
+        font-size: 16px;
+        .smaller {
+            font-size: 12px;
+        }
+    }	
+}
