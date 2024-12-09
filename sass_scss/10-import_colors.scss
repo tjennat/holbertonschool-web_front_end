@@ -1,0 +1,14 @@
+/* using import to sass */
+@import "10-colors.scss";
+
+.red {
+    color: $red;
+}
+
+.green {
+    color: $green;
+}
+
+.blue {
+    color: $blue;
+}
