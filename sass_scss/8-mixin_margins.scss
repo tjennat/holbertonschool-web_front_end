@@ -1,0 +1,7 @@
+/* margin left and right with a mixin */
+body {
+    @include margin-left-right(10px);
+}
+div {
+    @include margin-left-right(15px);
+}
