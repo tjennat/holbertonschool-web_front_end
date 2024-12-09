@@ -1,7 +1,16 @@
 /* margin left and right with a mixin */
+@mixin body-margin {
+    margin-left: 10;
+    margin-right: 10;
+}
+@mixin div-margin {
+    margin-left: 15;
+    margin-right: 15;
+}
+
 body {
-    @mixin margin-left-right(10px);
+    @include body-margin;
 }
 div {
-    @mixin margin-left-right(15px);
+    @include div-margin;
 }
