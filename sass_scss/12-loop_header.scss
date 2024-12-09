@@ -1,0 +1,6 @@
+/* loop with headers using a for 1 to 5 for the font size */
+@for $i from 1 through 5 {
+	h#{$i} {
+		font-size: #{$i}px;
+	}
+}
